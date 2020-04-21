@@ -33,14 +33,14 @@ class Index extends React.Component {
         </Block>
 
         <Block className="stripe bg-dots">
-          <Block.Container>
+          <Block.Container reversed>
             <Block.TextBox>
               <Block.Title>Less wrangling, more building.</Block.Title>
               <Block.Paragraph>The philosophy behind Backstage is simple: Don't expose your engineers to the full complexity of your infrastructure tooling. Engineers should be shipping code — not figuring out a whole new toolset every time they want to implement the basics.</Block.Paragraph>
             </Block.TextBox>
             <Block.Graphics style={{margin: '0 100px'}}>
               <Breakpoint
-                wide={<Block.Graphic x={-28} y={5} width={260} src={`${baseUrl}img/logos-background.svg`}/>}
+                wide={<Block.Graphic x={-30} y={5} width={158} src={`${baseUrl}img/logos-background.svg`}/>}
                 narrow={<div className='logos-mobile-background'/>}
               />
               <Block.Graphic x={20} y={10} width={60} src={`${baseUrl}img/logos.svg`}/>
@@ -59,7 +59,7 @@ class Index extends React.Component {
         </ActionBlock>
 
         <Block className="stripe bg-black">
-          <Block.Container reversed>
+          <Block.Container>
             <Block.TextBox>
               <Block.Title>As simple as writing a plugin.</Block.Title>
               <Block.Paragraph>Backstage makes unifying all of your infrastructure tooling, services, and documentation as simple as writing a plugin. With all your developer tools
@@ -67,8 +67,8 @@ in one place, your engineers will always know where to find the right tool for t
             </Block.TextBox>
             <Block.Graphics>
               <Breakpoint
-                wide={<Block.Graphic x={-20} y={-5} width={140} src={`${baseUrl}img/plugin.svg`}/>}
-                narrow={<Block.Graphic x={-23.5} y={-5} width={135} src={`${baseUrl}img/plugin-mobile.svg`}/>}
+                wide={<Block.Graphic x={-5} y={-5} width={132} src={`${baseUrl}img/plugin.svg`}/>}
+                narrow={<Block.Graphic x={-23.5} y={-5} width={132} src={`${baseUrl}img/plugin-mobile.svg`}/>}
               />
             </Block.Graphics>
           </Block.Container>

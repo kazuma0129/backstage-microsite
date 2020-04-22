@@ -39,7 +39,7 @@ const Background = (props) => {
             <Block.LinkButton href={"https://www.youtube.com/watch?v=U1iwe3L5pzc"}>Request a live demo</Block.LinkButton>
           </Block.TextBox>
           <Block.TextBox>
-            <iframe width="800" height="500" src="https://www.youtube.com/embed/vcDL9tOv7Eo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/vcDL9tOv7Eo" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
           </Block.TextBox>
         </Block.Container>
       </Block>
@@ -52,7 +52,7 @@ const Background = (props) => {
           <Block.LinkButton href={"https://www.youtube.com/watch?v=rH46MLNZIPM "}>Request a live demo</Block.LinkButton>
         </Block.TextBox>
         <Block.TextBox>
-          <iframe width="800" height="500" src="https://www.youtube.com/embed/rH46MLNZIPM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <iframe width="800" height="500" src="https://www.youtube.com/embed/rH46MLNZIPM" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
         </Block.TextBox>
       </Block.Container>
       </Block>
@@ -66,7 +66,7 @@ const Background = (props) => {
             <Block.LinkButton href={"https://www.youtube.com/watch?v=U1iwe3L5pzc"}>Request a live demo</Block.LinkButton>
           </Block.TextBox>
           <Block.TextBox>
-            <iframe width="800" height="500" src="https://www.youtube.com/embed/U1iwe3L5pzc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe width="800" height="500" src="https://www.youtube.com/embed/U1iwe3L5pzc" frameBorder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullscreen></iframe>
           </Block.TextBox>
         </Block.Container>
       </Block>

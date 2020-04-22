@@ -24,7 +24,7 @@ const Background = (props) => {
             </Block.Paragraph>
           </Block.TextBox>
           <Block.Graphics>
-              <Block.Graphic x={-12.5} y={-12} width={120} src={`${baseUrl}img/demo-illustration.svg`}/>
+              <Block.Graphic x={-7} y={-12} width={120} src={`${baseUrl}img/demo-illustration.svg`}/>
             </Block.Graphics>
         </Block.Container>
       </Block>

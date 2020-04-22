@@ -51,10 +51,11 @@
       }
     },
     "links": {
-      "The Spotify story": "The Spotify story",
+      "GitHub": "GitHub",
       "Blog": "Blog",
-      "Request a demo": "Request a demo",
-      "GitHub": "GitHub"
+      "Demos": "Demos",
+      "The Spotify story": "The Spotify story",
+      "Request live demo": "Request live demo"
     },
     "categories": {
       "Getting Started": "Getting Started",

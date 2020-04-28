@@ -31,14 +31,14 @@ Just run the `backstage-cli`:
 npx @backstage/cli create-app
 ```
 
-We will just ask for a name of the app, and then create everything you need:
+Fill in the great name you have for your app, and we will create everything you need:
 
 ![](assets/4/create-app.png)
 
 The only thing you need to do is to start the app:
 
 ```bash
-cd my-backstage-app
+cd my-app
 yarn start
 ```
 
@@ -64,11 +64,11 @@ We have also included our own caching system to not rebuild unchanged packages t
 
 Our hope is that there will be thousands of Backstage Plugins in the future, so we need a fast and stable build process.
 
-### 3. Full Typescript support
+### 3. Full TypeScript support
 
-Most of the codebase is written in [Typescript](https://www.typescriptlang.org/) and we aim for all of the core packages to be in Typescript in the future.
+Most of the codebase is written in [TypeScript](https://www.typescriptlang.org/) and we aim for all of the core packages to be in TypeScript in the future.
 
-All the knobs and handles needed for a stable and functioning Typescript project is included.
+All the knobs and handles needed for a stable and functioning TypeScript project is included.
 
 Take a look at `@backstage/cli/config/tsconfig.json` for more details.
 

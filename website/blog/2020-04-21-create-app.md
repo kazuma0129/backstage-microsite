@@ -23,6 +23,12 @@ More specifically, a Backstage App is using Backstage's core packages and APIs t
 
 Plugins are the essential building blocks of Backstage and extend the platform by providing additional features and functionality. _Read more about [plugins](https://github.com/spotify/backstage/tree/master/docs/getting-started)._
 
+## A personalized Backstage platform
+
+When you create a Backstage App you are creating your own installation of Backstage, an application that is built on top of the Backstage _platform_.
+
+You get to take full advantage of the platform that we at Spotify have had such success with. But make it your own. Think about the name you give the application, we think it should be something that is suitable for _your_ organization.
+
 ## How do I create an app?
 
 Just run the `backstage-cli`:
@@ -86,14 +92,38 @@ yarn test:e2e
 
 At Spotify, the main success factor behind Backstage has been the large collection of plugins that has been contributed by various teams. Internally we have more than a hundred different plugins.
 
-Once set up with your Backstage App, you can start creating your own plugins by simply running:
+### Using a public plugin
+
+We provide a collection of public Backstage plugins (look for packages with the `plugin-` prefix under the `@backstage` namespace on [npm](https://www.npmjs.com/)) that you can start using immediately.
+
+Install in your App's package folder (`<root>/packages/app`) with:
+
+```bash
+yarn add @backstage/plugin-<plugin-name>
+```
+
+Then add it to your App's `plugin.ts` file to import and register it:
+
+`<root>/packages/app/src/plugin.ts`:
+
+```js
+export { plugin as PluginName } from "@backstage/plugin-<plugin-name>";
+```
+
+A plugin registers its own `route` in the App - read the documentation for the specific plugin you are installing for more information on that.
+
+### Creating an internal plugin
+
+We also know that each organization has different needs and will create their own, internal purpose plugins. To create an internal plugin, you can use our CLI again.
+
+In the root of your App directory (`<root>`) run:
 
 ```bash
 npx @backstage/cli create-plugin
 ```
 
-in the root of your Backstage App directory.
+This command will create new plugin in `<root>/plugins/` and register it to your App automatically.
 
-## Future
+### Sharing is caring 🤗
 
-<!-- Something might go here? -->
+If you are developing a plugin that might be useful for others, consider releasing it publicly.

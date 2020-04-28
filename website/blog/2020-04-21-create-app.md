@@ -17,7 +17,7 @@ With this blog post we are looking at what a Backstage App is and how easy it is
 
 ![](assets/4/welcome.png)
 
-A Backstage App is a modern monorepo web-project that is built using Backstage packages. It includes all the configuration and architecture needed to run Backstage so that you don't need to worry about setting everyhting up by your self.
+A Backstage App is a modern monorepo web-project that is built using Backstage packages. It includes all the configuration and architecture needed to run Backstage so that you don't need to worry about setting everything up by yourself.
 
 More specifically, a Backstage App is using Backstage's core packages and APIs that provides base functionality to the app. The actual UX is provided by different plugins. As an example, when you first load the `/` page of the App, the content is provided by the `welcome`-plugin.
 
@@ -42,47 +42,49 @@ cd my-backstage-app
 yarn start
 ```
 
+And you are good to go! 👍
+
 _Read the full [docs](https://github.com/spotify/backstage/blob/master/docs/create-an-app.md)._
 
 ## What do I get? (Let's get technical...)
 
-We have spent a lot of effort including everything needed and tweaking all the infrastructure so that it fits our needs. And we think it will fit yours too!
+We have spent a lot of effort to include everything needed and tweaking all the infrastructure so that it fits our needs. And we think it will fit yours too!
 
 ### 1. Lerna setup to manage multi-packages
 
-The monorepo and its packages are managed by [`lerna`](https://lerna.js.org/). It let's you work with individual packages in a controlled way.
+The monorepo and its packages are managed by [`lerna`](https://lerna.js.org/). It lets you work with individual packages in a controlled way.
 
 ### 2. Fast builds
 
 Behind the scenes we use [`rollup`](https://rollupjs.org/) to build the modules.
 
-Each package is being individually built. With the `--watch` flag you will be able to detect changes per package and therefor speed up the local developing process.
+Each package is being individually built. With the `--watch` flag you will be able to detect changes per package and therefore speed up the local development process.
 
-We have also included our own caching system to not re-build un-changed packages to further speed things up.
+We have also included our own caching system to not rebuild unchanged packages to further speed things up.
 
 Our hope is that there will be thousands of Backstage Plugins in the future, so we need a fast and stable build process.
 
 ### 3. Full Typescript support
 
-Most of the codebase is written in `Typescript` and we aim for all of the core packages to be in Typescript in the future.
+Most of the codebase is written in [Typescript](https://www.typescriptlang.org/) and we aim for all of the core packages to be in Typescript in the future.
 
 All the knobs and handles needed for a stable and functioning Typescript project is included.
 
-Take a look at [`@backstage/cli/config/tsconfig.json`](https://github.com/spotify/backstage/blob/master/packages/cli/config/tsconfig.json) for more details.
+Take a look at `@backstage/cli/config/tsconfig.json` for more details.
 
 ### 4. Tests and coverage out of the box
 
-We include testing, linting and e2e tests for your convenience.
+We include testing, linting and end-to-end tests for your convenience.
 
-```
-$ yarn lint:all
-$ yarn test:all
-$ yarn test:e2e
+```bash
+yarn lint:all
+yarn test:all
+yarn test:e2e
 ```
 
 ## Extend the App with Plugins
 
-At Spotify, the main success-factor behind Backstage has been the large collection of plugins that has been contributed by various teams. Internally we have more than a 100 different plugins.
+At Spotify, the main success factor behind Backstage has been the large collection of plugins that has been contributed by various teams. Internally we have more than a hundred different plugins.
 
 Once set up with your Backstage App, you can start creating your own plugins by simply running:
 

@@ -7,7 +7,7 @@ authorImageURL: https://secure.gravatar.com/avatar/20223f1e03673c7c1e6282fbebaf6
 
 We wanted to make getting started with Backstage as easy as possible. Even though Backstage is still in the early phases of its development, we believe it is important for our users to get a feel for what Backstage really is.
 
-We want users to be able to create their own version of Backstage quickly and easily, - so that they can take advantage of all the infrastructure that we´ve built into it - and start exploring.
+We want users to be able to create their own version of Backstage quickly and easily - so that they can take advantage of all the infrastructure that we´ve built into it - and start exploring.
 
 In this blog post we´ll look at what a Backstage app is and how to create one using our [CLI](https://www.npmjs.com/package/@backstage/cli).
 
@@ -50,7 +50,7 @@ yarn start
 
 And you are good to go! 👍
 
-Read the full documentation on how [create an app](https://github.com/spotify/backstage/blob/master/docs/create-an-app.md) on GitHub.
+Read the full documentation on how to [create an app](https://github.com/spotify/backstage/blob/master/docs/create-an-app.md) on GitHub.
 
 ## What do I get? (Let's get technical...)
 

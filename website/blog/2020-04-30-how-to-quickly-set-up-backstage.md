@@ -121,7 +121,7 @@ We also know that each organization has different needs and will create their ow
 In the root of your app directory (`<root>`) run:
 
 ```bash
-npx @backstage/cli create-plugin
+yarn create-plugin
 ```
 
 This command will create a new plugin in `<root>/plugins/` and register it to your app automatically.

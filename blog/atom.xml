@@ -2,12 +2,27 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://backstage.io/blog</id>
     <title>Backstage Blog</title>
-    <updated>2020-04-06T06:00:00.000Z</updated>
+    <updated>2020-04-30T06:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://backstage.io/blog"/>
     <subtitle>The best place to stay up-to-date with the latest Backstage news and events.</subtitle>
     <logo>https://backstage.io/undefined</logo>
     <rights>Copyright © 2020 Spotify AB</rights>
+    <entry>
+        <title type="html"><![CDATA[How to quickly set up Backstage]]></title>
+        <id>https://backstage.io/blog/2020/04/30/how-to-quickly-set-up-backstage.html</id>
+        <link href="https://backstage.io/blog/2020/04/30/how-to-quickly-set-up-backstage.html"/>
+        <updated>2020-04-30T06:00:00.000Z</updated>
+        <summary type="html"><![CDATA[<p>We wanted to make getting started with Backstage as easy as possible. Even though Backstage is still in the early phases of its development, we believe it is important for our users to get a feel for what Backstage really is.</p>
+<p>We want users to be able to create their own version of Backstage quickly and easily - so that they can take advantage of all the infrastructure that we´ve built into it - and start exploring.</p>
+<p>In this blog post we´ll look at what a Backstage app is and how to create one using our <a href="https://www.npmjs.com/package/@backstage/cli">CLI</a>.</p>
+]]></summary>
+        <author>
+            <name>Marcus Eide</name>
+            <email/>
+            <uri>https://github.com/marcuseide</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introducing Lighthouse for Backstage]]></title>
         <id>https://backstage.io/blog/2020/04/06/lighthouse-plugin.html</id>

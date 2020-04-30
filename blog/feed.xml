@@ -4,7 +4,7 @@
         <title>Backstage Blog</title>
         <link>https://backstage.io/blog</link>
         <description>The best place to stay up-to-date with the latest Backstage news and events.</description>
-        <lastBuildDate>Mon, 06 Apr 2020 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 30 Apr 2020 06:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <image>
@@ -13,6 +13,16 @@
             <link>https://backstage.io/blog</link>
         </image>
         <copyright>Copyright © 2020 Spotify AB</copyright>
+        <item>
+            <title><![CDATA[How to quickly set up Backstage]]></title>
+            <link>https://backstage.io/blog/2020/04/30/how-to-quickly-set-up-backstage.html</link>
+            <guid>https://backstage.io/blog/2020/04/30/how-to-quickly-set-up-backstage.html</guid>
+            <pubDate>Thu, 30 Apr 2020 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>We wanted to make getting started with Backstage as easy as possible. Even though Backstage is still in the early phases of its development, we believe it is important for our users to get a feel for what Backstage really is.</p>
+<p>We want users to be able to create their own version of Backstage quickly and easily - so that they can take advantage of all the infrastructure that we´ve built into it - and start exploring.</p>
+<p>In this blog post we´ll look at what a Backstage app is and how to create one using our <a href="https://www.npmjs.com/package/@backstage/cli">CLI</a>.</p>
+]]></description>
+        </item>
         <item>
             <title><![CDATA[Introducing Lighthouse for Backstage]]></title>
             <link>https://backstage.io/blog/2020/04/06/lighthouse-plugin.html</link>
